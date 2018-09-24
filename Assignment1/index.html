@@ -3,31 +3,91 @@
 <html>
     <head>
         <title>Assignment 1</title>
+		<link rel="stylesheet" href="stylesheets/index.css">
     </head>
     <body>
-        <h3>Dom's Top Three Skills</h3>
-        <ul>
-            <li>Programming</li>
-            <li>Mathematics</li>
-            <li>Video Games</li>
-        </ul>
-        <h3>Dom's Last Three Jobs</h3>
-        <ol>
-            <li>Quantitative Engineer</li>
-            <ul>
-                <li>Optimized existing trading algorithms for production use</li>
-                <li>Developed middle-office infrastructure for day-to-day use</li>
-            </ul>
-            <li>Student Worker</li>
-            <ul>
-                <li>Developed an online locker rental system for Fordham</li>
-                <li>Managed daily office activities required for effecient operation</li>
-            </ul>
-            <li>Messenger</li>
-            <ul>
-                <li>Delivered packages from any given two points in the NYC area</li>
-                <li>Handled updates of delivery between the client and dispatcher</li>
-            </ul>
-        </ol>
+        <h1 id="skill_header">Dom's Top Three Skills</h1>
+        <table id="skill_table">
+			<tbody>
+				<tr id="skill_table_header">
+                    <!--Colspan does not apply in CSS?-->
+					<th id="skill_table_header_text" colspan="100%">My Own Special Set of Skills</th>
+				</tr>
+				<tr id="skill">
+					<th>
+						<a href="https://github.com/Olgethorpe" target="_blank">Programming</a> : 
+					</th>
+					<th>
+						<img src="images/stroustrup.jpg" alt="Programming Principles and Practice Using C++ by Bjarne Stroustrup, Second Edition" width="262px" height="320px">
+						<img src="images/pylogo.png" alt="The logo for the Python Programming language" width="500px" height="320px">
+						<img src="images/javalogo.jpg" alt="The logo for the Java Programming language" width="262px" height="320px">
+					</th>
+				</tr>
+				<tr id="skill">
+					<th>
+						<a href="templates/coming_soon.html">Mathematics</a> : 
+					</th>
+					<th>
+						<img src="images/calclogo.jpg" alt="A sphere with various aspects of calculus written on its surface" width ="500px" height="300px">
+						<img src="images/stewart-calculus-7e.jpg" alt="Calculus Early Transcendentals by James Stewart, Seventh Edition" width="250px" height="300px">
+					</th>
+				</tr>
+				<tr id="skill">
+					<th>
+						<a href="https://steamcommunity.com/profiles/76561198035560597" target="_blank">Video Games</a> : 
+					</th>
+                    <th>
+                        <img src="images/steam-logo.jpg" alt="The logo for the video game plateform, Steam" width="700px" height="300px">
+                    </th>
+				</tr>
+			</tbody>
+		</table>
+        <h1 id="job_header">Dom's Last Three Jobs</h1>
+        <table id="job_table">
+            <tbody>
+                <tr id="job">
+                    <th colspan="100%">Quantitative Engineer</th>
+                </tr>
+                <tr id="job_info">
+                    <th>Optimized existing trading algorithms for production use.</th>
+                    <th>
+                        <img src="images/blockseedlogo.jpg" alt="The logo for the hedge fund, Blockseed Capital" width="400px" height="150px">
+                    </th>
+                    <th>Developed middle-office infrastructure for day-to-day use.</th>
+                </tr>
+                <tr class="noBorder">
+                    <th></th>
+                </tr>
+                <tr class="noBorder">
+                    <th></th>
+                </tr>
+                <tr id="job">
+                    <th colspan="100%">Student Worker</th>
+                </tr>
+                <tr id="job_info">
+                    <th>Developed an online locker rental system for Fordham.</th>
+                    <th>
+                        <img src="images/fordhamlogo.jpg" alt="The ram mascot for Fordham Univesity next to a block F letter" width="200px" height="200px">
+                    </th>
+                    <th>Managed daily office activities required for effecient operation.</th>
+                </tr>
+                <tr class="noBorder">
+                    <th></th>
+                </tr>
+                <tr class="noBorder">
+                    <th></th>
+                </tr>
+                <tr id="job">
+                    <th colspan="100%">Messenger</th>
+                </tr>
+                <tr id="job_info">
+                    <th>Delivered packages from any given two points in the NYC area.</th>
+                    <th>
+                        <img src="images/amexlogo.png" alt="The logo for the messenger service, American Expediting." width="400px" height="150px" />
+                    </th>
+                    <th>Handled updates of delivery between the client and dispatcher.</th>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>

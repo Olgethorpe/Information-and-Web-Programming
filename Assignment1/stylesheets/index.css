@@ -1,0 +1,75 @@
+body {
+	background-color: #6BB3B0;
+}
+
+#job_table tr.noBorder th{
+    border: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited,
+#skill,
+#job {
+    color: #DAF1F0;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#skill_header,
+#job_header {
+    font-size: 400%;
+    text-align: center;
+}
+
+#skill_table,
+#job_table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skill_table_header,{
+    font-size: 300%;
+}
+
+#skill,
+#job {
+    font-size: 200%;
+}
+
+#skill_table,
+#job_table {
+    width: 1400px;
+}
+
+#skill_table th, tr,
+#job_table th, tr {
+    padding: 15px;
+    border: 5px solid #2B7370;
+}
+
+#skill_table_header_text {
+    font-size: 200%;
+    column-span: 100%; /*This did not work for me?*/
+}
+
+#skill_header,
+#skill_table_header,
+#job_info,
+#job_header {
+    color: #A8E5E2;
+}
+
+#job_info th{
+    width: 33.3%;
+    font-size: 200%;
+}
+
+#job_info {
+    padding-bottom: 100px;
+}
