@@ -1,0 +1,34 @@
+#one,
+#two,
+#three,
+#four {
+    width: 40%;
+    border: 1px solid black;
+    height: 100px;
+    margin: 25px;
+    background-color: green;
+}
+
+#one {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#two,
+#three {
+    display: inline-block;
+}
+
+#four {
+    position: relative;
+}
+
+#child_of_four {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    width: 5%;
+    height: 15%;
+}
