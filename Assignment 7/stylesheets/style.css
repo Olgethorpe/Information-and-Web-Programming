@@ -1,0 +1,47 @@
+.transition {
+    width: 100px;
+    height: 100px;
+    background-color: orange;   
+    transition: width 2s, height 3s;
+}
+
+.transition:hover {
+    width: 250px;
+    height: 50px;
+}
+
+.animation {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: move_there_and_back;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move_there_and_back {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 500px;
+    }
+}
+
+.flexbox {
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexbox > div {
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
