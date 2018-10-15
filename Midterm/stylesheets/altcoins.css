@@ -1,0 +1,46 @@
+hr {
+    margin-bottom: 35px;
+}
+
+.flexContainer {
+    flex-basis: 0;
+}
+
+.coinRight {
+    position: relative;
+    width: 500px;
+    height: 100%;
+    align-self: center;
+    margin-bottom: 1%;
+    margin: 2%;
+    padding-right: 5%;  
+}
+
+.coinLeft {
+    padding-left: 5%;
+    transition: width 2s, height 3s;
+}
+
+.coinLeft:hover {
+    width: 256px;
+    height: 256px;
+}
+
+.flexItem {
+    padding-right: 5%;
+}
+
+.coin {
+    height: 128px;
+    width: 128px;
+    transition: width 2s, height 2s;
+}
+
+.coin:hover {
+    width: 256px;
+    height: 256px;
+}
+
+.coinmarketcap-currency-widget {
+    transition: width 2s, height 3s;
+}
