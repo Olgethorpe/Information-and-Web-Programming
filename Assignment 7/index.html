@@ -12,7 +12,7 @@
             Hover over me to watch me change!
         </div>
         <h2>This is an example of an animation:</h2>
-        <div class="animation">
+        <div id="movement" class="animation">
             Watch me move!
         </div>
         <h2>This is an example of a flexbox</h2>
@@ -21,5 +21,19 @@
             <div>I have just enough room to flex!</div>
             <div>I'm flexed to the right.</div>
         </div>
+        <button id="myButton" type="button" onclick="changeColor()">Click me to change a color!</button>
+        <script>
+            function changeColor() {
+                document.getElementById("movement").style.backgroundColor = getRandomColor();
+            }
+            function getRandomColor() {
+                var letters = '0123456789ABCDEF';
+                var color = '#';
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+        </script>
     </body>
 </html>
