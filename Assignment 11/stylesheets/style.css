@@ -37,7 +37,6 @@ hr {
     width: 25%;
     text-align: center;
     position: fixed;
-    top: 1%;
     margin-left: 15%;
     margin-right: 60%;
 }
@@ -51,13 +50,15 @@ hr {
 }
 
 .instructions-container h2 {
-    font-size: 30px;
+    margin-top: -40px;
+    font-size: 50px;
     text-decoration: underline;
     color: #F4E6CD;
 }
 
 .instructions-title {
-    font-size: 70px;
+    margin-top: 1%;
+    font-size: 90px;
     font-weight: bold;
     color: #F4E6CD;
 }

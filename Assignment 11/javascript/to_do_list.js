@@ -48,6 +48,13 @@ function drop_task(task_num) {
                 $(this).remove();
         }
     );
+    $("hr").each(
+        function (index) {
+            curr_task = index + 1;
+            if (Number(curr_task) === Number(task_num))
+                $(this).remove();
+        }
+    );
 }
 
 /**
