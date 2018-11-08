@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Assignment 10</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript\changeImage.js"></script>
+</head>
+    <body>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <h2>Boku no Hero</h2>
+                <img class="background" src="images\background\boku-no-hero-background.png">
+                <div class="image-container">
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <h2>Miss Kobayashi's Dragon Maid</h2>
+                <img class="background" src="images\background\dragon-maid-background.png">
+            </div>
+            <div class="mySlides fade">
+                <h2>Cowboy Bebop</h2>
+                <img class="background" src="images\background\cowboy-bebop-background.jpg">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 10</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kalam">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript/to_do_list.js"></script>
+</head>
+	<body>
+		<div class="master-container">
+			<div class="instructions-container">
+				<h1 class="instructions-title">
+					My
+					<br>
+					To&nbsp;-&nbsp;Do
+					<br>
+					List
+				</h1>
+				<h2>Instructions</h2>
+				<p>
+					Press the "New Task" button to add a new task
+					<br>
+					Press the "Remove Task" button to remove an unwanted task
+					<br>
+					Click on a task to mark it as done
+				</p>
+				<div class="buttons">
+					<button onclick="add_task()">New task</button>
+					<button onclick="remove_task()">Remove Task</button>
+				</div>
+			</div>
+			<div class="list-container">
+				<ol class="list"></ol>
+			</div>
+		</div>
+	</body>
+</html>

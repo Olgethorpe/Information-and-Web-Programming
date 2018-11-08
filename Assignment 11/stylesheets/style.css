@@ -1,0 +1,104 @@
+html {
+    background-image: url("../images/background.jpg")
+}
+
+body {
+    margin: 0;
+}
+
+hr {
+    background-color: #EDAD53;
+    width: 70%;
+    height: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    text-decoration-color: #EE5242;
+}
+
+.list-container {
+    display: inline;
+    background-color: #F4E6CD;
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 50%;
+    font-size: 50px;
+}
+
+.list-container li {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Kalam', cursive;
+}
+
+.instructions-container {
+    display: inline;
+    width: 25%;
+    text-align: center;
+    position: fixed;
+    top: 1%;
+    margin-left: 15%;
+    margin-right: 60%;
+}
+
+.instructions-container p {
+    background-color: #EE5242;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 20px;
+    color: #F4E6CD;
+}
+
+.instructions-container h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: #F4E6CD;
+}
+
+.instructions-title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #F4E6CD;
+}
+
+.master-container {
+    display: flex;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.buttons {
+    display: inline-flex;
+    height: 70px;
+    margin-top: 10%;
+    margin-bottom: 45%;
+    margin-left: -10%;
+    width: 125%
+}
+
+.buttons button {
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    width: 110%;
+    height: 100%;
+    background-color: #EDAD53;
+    color: #F4E6CD;
+    font-size: 20px;
+}
+
+.task:hover {
+    cursor: pointer;
+}
+
+/*
+    #EE5242
+    #F4E6CD
+    #EDAD53
+    #4F2E2D
+*/
+
+/*
+    4, 14, 15, 21, 27, 31, 38, 39, 48, 59, 53, 56, 67, 78
+*/
