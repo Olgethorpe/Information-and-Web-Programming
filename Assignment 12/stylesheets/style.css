@@ -1,0 +1,108 @@
+* {
+    font-family: 'Fredoka One';
+    letter-spacing: 1.5px;
+    color: #405B63;
+}
+
+body {
+    margin-top: 0;
+    margin: 0, auto;
+    width: 100%;
+    vertical-align: middle;
+    background-color: #EDD490;
+}
+
+form {
+    font-size: 30px;
+}
+
+.title {
+    font-size: 90px;
+    margin-top: -25%;
+    margin-bottom: 5%;
+    width: 100%;
+    color: #DF1E1E;
+}
+
+.extraDataContainer {
+    margin-top: -1%;
+}
+
+.rangeContainer {
+    margin-top: 3%;
+}
+
+.mainBox {
+    text-align: center;
+    border: solid 10px #2A4B2E;
+    width: 66.6%;
+    font-size: 50px;
+    padding: 10px;
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    background-color: #DCDAD6;
+}
+
+.masterContainer {
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+}
+
+.masterContainer h2 {
+    font-size: 40px;
+}
+
+.masterContainer h3 {
+    margin-top: -7%;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+.masterContainer div {
+    width: 33.3%;
+    text-align: center;
+}
+
+.checkbs {
+    display: inline;
+    text-align: center;
+    font-size: 40px;
+}
+
+.cb {
+    margin-top: 3px;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+}
+
+.lbl {
+    margin: 25px;
+    margin-top: 10px;
+}
+
+.country, .city {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subBtn {
+    margin-top: 1%;
+    height: 80px;
+    width: 60%;
+    font-size: 40px;
+    background-color: #E77060;
+    border-radius: 25px;
+}
+
+input[type=checkbox] {
+    -ms-transform: scale(2);
+    -moz-transform: scale(2); 
+    -webkit-transform: scale(2); 
+    -o-transform: scale(2); 
+}
