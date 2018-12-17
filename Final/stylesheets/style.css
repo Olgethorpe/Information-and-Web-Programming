@@ -82,6 +82,11 @@ hr {
   background-color: #ffc342;
 }
 
+img {
+  border-radius: 25px;
+}
+
+
 .topic {
     font-family: 'Play', sans-serif;
     text-align: center;
